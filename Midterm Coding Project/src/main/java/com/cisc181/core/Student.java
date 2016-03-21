@@ -7,10 +7,10 @@ import com.cisc181.eNums.eMajor;
 
 public class Student extends Person {
 
-	private String Major;
+	private enum Major;
 	private UUID StudentID;
 	
-	public String getMajor ( )
+	public enum getMajor ( )
     {
         return this.Major;
     }
