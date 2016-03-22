@@ -14,4 +14,7 @@ public class Course {
 	public UUID CourseID;
 
 	public eMajor Major;
+	
+	
+	
 }
