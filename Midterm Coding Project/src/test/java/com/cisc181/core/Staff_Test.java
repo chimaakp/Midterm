@@ -16,7 +16,7 @@ public class Staff_Test {
 	}
 	
 	@Test
-	public void testSalary() {
+	public void testSalary() throws PersonException {
 	
 	Staff Stan = new Staff("Stan" , "Greg", "Johnson", Date., "Delaware", "1234567890", "jerome@udel.edu",
 			"MWF", 3, 50500, Date, eTitle.MR);

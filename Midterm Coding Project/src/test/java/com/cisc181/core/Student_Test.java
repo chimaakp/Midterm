@@ -16,6 +16,14 @@ public class Student_Test {
 
 	@Test
 	public void test() {
+		
+		public Course CISC = new Course("Cisc",UUID.randomUUID(), )
+		ArrayList<Course> CT = new ArrayList<Course>();
+		CT.add(CISC);
+		CT.add(CPEG);
+		CT.add(MATH);
+		CT.add(ENGL);
+		
 		assertEquals(1, 1);
 	}
 }
