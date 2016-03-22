@@ -35,7 +35,17 @@ public class Staff_Test {
 		ST.add(Dave);
 		
 		assertEquals((Stan.getSalary() + Bernard.getSalary() + Shaquan.getSalary() + Shaquisha.getSalary() + Dave.getSalary()) / 5 , 66,563.6);
-		}	
+		}
+	
+	@Test 
+	public void testInval(){
+		try{
+			
+		}
+		catch(PersonException e){
+			
+		}
+	}
 	
 	
 
