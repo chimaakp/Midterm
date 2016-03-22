@@ -1,11 +1,19 @@
 package com.cisc181.core;
 
 public class PersonException extends Exception {
-	
-	public Person pe;
-	
-	PersonException(Person pe){
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Person pe;
+
+	public PersonException(Person pe) {
+		super();
 		this.pe = pe;
 	}
-
-}
+	public Person getPerson() {
+		return pe;
+	}
+		
+	}
