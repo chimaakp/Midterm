@@ -9,10 +9,13 @@ public class Enrollment {
 	public UUID EnrollmentID;
 	
 	private Enrollment(){
-		
+		this.EnrollmentID = UUID.randomUUID();
 	}
 	
 	private Enrollment(UUID StudentID, UUID SectionID){
+		this();
+		this.StudentID = UUID.randomUUID();
+		this.SectionID = UUID.randomUUID();
 		
 	}
 	
