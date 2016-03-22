@@ -18,7 +18,10 @@ public class Staff extends Employee {
 	    public eTitle getTitle(){
 	        return this.Title;
 	    }
-
+	    
+	    public double getSalary(){
+	    	return this.getSalary();
+	    }
     
 
     
