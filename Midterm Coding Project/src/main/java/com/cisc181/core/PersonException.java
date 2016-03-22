@@ -12,8 +12,8 @@ public class PersonException extends Exception {
 		super();
 		this.pe = pe;
 	}
-	public Person getPerson() {
-		return pe;
+	public string getDOB() {
+		System.out.println("This DOB is invalid (more than 100 years old");
 	}
 		
 	}
