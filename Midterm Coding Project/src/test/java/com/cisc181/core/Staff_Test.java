@@ -18,8 +18,10 @@ public class Staff_Test {
 	@Test
 	public void test() {
 	
-	Staff Stan = new Staff("Stan" , "Greg", "Johnson", Calendar(1997, 7,21), "Delaware", "1234567890", "jerome@udel.edu",
-			"MWF", 3, 50500, Calendar(2015, 3, 21), eTitle.MR);
+	Staff Stan = new Staff("Stan" , "Greg", "Johnson", Date., "Delaware", "1234567890", "jerome@udel.edu",
+			"MWF", 3, 50500, Date, eTitle.MR);
+	Staff Bernard = new Staff("", "", "", null, "","", "", "", null, 20010, null, eTitle.MR );
+	Staff Shaquan = new Staff("", "", "", null, "","", "", "", null, 12673, null, eTitle.MRS);
 	
 
 	ArrayList<Staff> ST = new ArrayList<Staff>();
