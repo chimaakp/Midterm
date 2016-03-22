@@ -42,4 +42,17 @@ public class Course {
 	public UUID getCourseID(){
 		return CourseID;
 	}
+	
+	public void setCourseID(UUID CourseID){
+		this.CourseID = CourseID;
+	}
+	
+	public eMajor getMajor(){
+		return Major;
+		}
+	
+	public void setMajor(eMajor Major){
+		this.Major = Major;
+		}
+	
 }
